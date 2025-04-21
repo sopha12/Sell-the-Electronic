@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Seal Electronic</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 fixed-top w-10">
+    <a class="navbar-brand text-white" href="#">Seal Electronic</a>
+    <div class="collapse navbar-collapse d-flex justify-content-between">
+      <ul class="navbar-nav d-flex flex-row gap-3">
+        <li class="nav-item"><a class="nav-link text-white" href="#">Home</a></li>
+        <li class="nav-item" style="margin-top: 6px;">
+          <select class="form-select form-select-sm bg-dark text-white border-0">
+            <option selected>Products</option>
+            <!-- <option value="">A</option>
+            <option value="">B</option> -->
+          </select>
+        </li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">Deals</a></li>
+        <li class="nav-item"><a class="nav-link text-white" href="#">Support</a></li>
+      </ul>
+
+      <!-- Search and Cart -->
+      <div class="d-flex align-items-center gap-2">
+        <input type="text" class="form-control" placeholder="Search Products...">
+        <button class="btn btn-outline-light"><i class="fa fa-search"></i></button>
+        <a href="#" class="text-white ms-3"><i class="fa fa-user" style="text-decoration: underline;">Account</i></a>
+        <a href="#" class="text-white ms-3 position-relative"><i class="fa fa-shopping-cart"></i>
+          <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">3</span>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="container d-flex flex-column flex-md-row align-items-center mt-5 gap-3">
+    <!-- Text Column -->
+    <div class="w-100 w-md-50">
+      <h1 class="fw-bold mb-3 text-white">ហាងលក់កុំព្យូទ័រ ទូរសព្ទដៃ និង សម្ភារះអេឡិចត្រូនិក</h1>
+      <p class="mb-4 text-white">Find the latest computers, electronics, and accessories with exclusive deals <br> and fast shipping.</p>
+      <div class="d-flex gap-3">
+        <button class="btn btn-white w-50" style="background: #fff;">Shop Now</button>
+        <button class="btn  w-50 text-white" style="border: 1px solid #fff;">View Deals</button>
+      </div>
+    </div>
+
+    <!-- Image Column -->
+    <div class="w-100 w-md-50 mt-4 mt-md-0 text-center">
+      <img src="Assets/0 banner.jpg" class="img-fluid rounded shadow" style="max-height: 350px;" alt="Banner Image">
+    </div>
+  </div>
+
+  <div class="content bg-light py-2 w-100" style="height: 70vh;">
+    <div class="container">
+      <div class="row justify-content-center">
+        <p class="mt-lg-0">Flash Deals</p>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="card" style="height: 20vh;">
+            <div class="d-flex justify-content-end mb-0 p-2">
+              <span class="text-white bg-danger rounded-2">-20%</span>
+            </div>
+            <img src="Assets/02 laptop.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="card" style="height: 20vh;">
+            <div class="d-flex justify-content-end mb-0 p-2">
+              <span class="text-white bg-danger rounded-2">-15%</span>
+            </div>
+            <img src="Assets/06 smartphone.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="card" style="height: 20vh;">
+            <div class="d-flex justify-content-end mb-0 p-2">
+              <span class="text-white bg-danger rounded-2">-25%</span>
+            </div>
+            <img src="Assets/05 power.png" alt="">
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="card" style="height: 20vh;">
+            <div class="d-flex justify-content-end mb-0 p-2">
+              <span class="text-white bg-danger rounded-2">-30%</span>
+            </div>
+            <img src="Assets/07 earpod.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Bootstrap JS (Optional if dropdowns needed) -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
